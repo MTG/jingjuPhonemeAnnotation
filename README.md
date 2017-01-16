@@ -1,6 +1,9 @@
 # [Jingju (Beijing opera)](https://en.wikipedia.org/wiki/Peking_opera) Phoneme Annotation
 
+[中文版](https://github.com/ronggong/jingjuPhonemeAnnotation/blob/master/READMEC.md)
+
 Authors: Rong Gong, Rafael Caro Repetto, Yile Yang, MTG-UPF, rong.gong@upf.edu, rafael.caro@upf.edu
+
 16 January 2017
 
 Hierarchical annotation - line (phrase), syllable, phoneme annotations of the jingju (Beijing opera) a-cappella singing dataset
@@ -17,7 +20,7 @@ Tiers number:	5
 
 *2-pinyin:       written character (syllable) boundary not including padding characters. Silence is annotated.  
 
-*3-dian:         written character boundary. Silence is annotated.
+*3-dian:         written character boundary including padding characters. Silence is annotated.
 
 *4-dianSilence:  written character boundary. Silence is not annotated explicitly, it follows the previous dian syllable.  
 
