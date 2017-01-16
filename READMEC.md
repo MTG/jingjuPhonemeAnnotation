@@ -1,5 +1,7 @@
 # [京剧](https://zh.wikipedia.org/wiki/%E4%BA%AC%E5%89%A7)音素标注
 
+[English](https://github.com/ronggong/jingjuPhonemeAnnotation/blob/master/README.md)
+
 作者: 龚嵘, 贵云飞（Rafael Caro Repetto）, 杨弋乐, MTG-UPF, rong.gong@upf.edu, rafael.caro@upf.edu
 
 2017年1月16日
