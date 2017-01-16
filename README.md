@@ -20,7 +20,7 @@ Tiers number:	5
 
 *2-pinyin:       written character (syllable) boundary not including padding characters. Silence is annotated.  
 
-*3-dian:         written character boundary including padding characters. Silence is annotated.
+*3-dian:         written character boundary including padding characters. Silence is annotated.
 
 *4-dianSilence:  written character boundary. Silence is not annotated explicitly, it follows the previous dian syllable.  
 
