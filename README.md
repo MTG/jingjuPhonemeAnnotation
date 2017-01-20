@@ -36,8 +36,7 @@ Role-types [wiki page](https://en.wikipedia.org/wiki/Peking_opera#Classification
 *5-details:      phoneme boundary
 
 ##Usage:
-
-The textgrid file parsing code is in pycode folder, see this [jupyter notebook](https://github.com/ronggong/jingjuPhonemeAnnotation/blob/master/pycode/demo.ipynb) for some examples.
+The annotation textgrid files can be opened by Praat or by our parsing code, see this [jupyter notebook](https://github.com/ronggong/jingjuPhonemeAnnotation/blob/master/pycode/demo.ipynb) for some parsing examples.
 
 ##License:
-This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+This textgrid annotation work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
