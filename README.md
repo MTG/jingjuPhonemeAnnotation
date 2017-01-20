@@ -37,7 +37,7 @@ Role-types [wiki page](https://en.wikipedia.org/wiki/Peking_opera#Classification
 
 ##Usage:
 
-The textgrid file parsing code is in pycode folder, see `demo.py` for some examples.
+The textgrid file parsing code is in pycode folder, see this [jupyter notebook](https://github.com/ronggong/jingjuPhonemeAnnotation/blob/master/pycode/demo.ipynb) for some examples.
 
 ##License:
 This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
