@@ -4,9 +4,7 @@
 
 Authors: Rong Gong, Rafael Caro Repetto, Yile Yang, MTG-UPF, rong.gong@upf.edu, rafael.caro@upf.edu
 
-16 January 2017
-
-## Descrption
+## Description
 This dataset is a collection of boundary annotations of a cappella singing performed by Beijing Opera (Jingju, 京剧) professional and amateur singers. This dataset was used as the experimental dataset in the following work:
 
 >Rong Gong, Nicolas Obin, Georgi Dzhambazov and Xavier Serra, “Score-Informed Segmentation of Jingju Singing Phrases into Syllabic Units by Syllable Onset Detection" in ISMIR 2017 [submitted]
