@@ -23,17 +23,68 @@ Tiers number:	5
 
 Role-types [wiki page](https://en.wikipedia.org/wiki/Peking_opera#Classification_of_performers_and_roles): dan, laosheng
 
+### Annotation units for phoneme-level
+
+1.This table shows the annotation units used in 'pinyin' and 'details' tiers of each .\dataset\textgrid\\*.TextGrid  
+
+2.Chinese pinyin and X-SAMPA format are given. 
+
+3.b,p,d,t,k,j,q,x,zh,ch,sh,z,c,s initials are grouped into one representation (not X-SAMPA): c  
+
+4.v,N,J (X-SAMPA) are three special pronunciations which do not exist in pinyin.  
+
+<dl>
+<table>
+  <tr>
+    <th></th>
+    <th>Structure</th>
+    <th>Pinyin[X-SAMPA]</th>
+  </tr>
+  <tr>
+    <td rowspan="2">head</td>
+    <td>initials</td>
+    <td>m[m], f[f], n[n], l[l], g[k], h[x], r[r\'], y[j], w[w],<br>{b, p, d, t, k, j, q, x, zh, ch, sh, z, c, s} - group [c]<br>[v], [N], [J] - special pronunciations</td>
+  </tr>
+  <tr>
+    <td>medial vowels</td>
+    <td>i[i], u[u], ü[y]</td>
+  </tr>
+  <tr>
+    <td rowspan="4">belly</td>
+    <td>simple finals</td>
+    <td>a[a"], o[O], e[7], ê[E], i[i], u[u], ü[y],<br>i (zhi,chi,shi) [1], i (ci,ci,si) [M],</td>
+  </tr>
+  <tr>
+    <td>compound finals</td>
+    <td>ai[aI^], ei[eI^], ao[AU^], ou[oU^]</td>
+  </tr>
+  <tr>
+    <td>nasal finals</td>
+    <td>an[an], en[@n], in[in],<br>ang[AN], eng[7N], ing[iN], ong[UN]</td>
+  </tr>
+  <tr>
+    <td>retroflexed finals</td>
+    <td>er [@][r\']</td>
+  </tr>
+  <tr>
+    <td>tail</td>
+    <td></td>
+    <td>i[i], u[u], n[n], ng[N]</td>
+  </tr>
+</table>
+</dl>
+
 ##Tier descriptions:
 
-*1-line:         line boundary
+*1-line:         line boundary, lyrics in Chinese characters
 
-*2-pinyin:       written character (syllable) boundary not including padding characters. Silence is annotated.  
+*2-pinyin:       written character (syllable, in pinyin) boundary not including padding characters. Silence is annotated.  
 
-*3-dian:         written character boundary including padding characters. Silence is annotated.
+*3-dian:         written character (in pinyin) boundary including padding characters. Silence is annotated.
 
-*4-dianSilence:  written character boundary. Silence is not annotated explicitly, it follows the previous dian syllable.  
+*4-dianSilence:  written character (in pinyin) boundary. Silence is not annotated explicitly, it follows the previous dian syllable.  
 
-*5-details:      phoneme boundary
+*5-details:      phoneme (in X-SAMPA) boundary
 
 ##Usage:
 The annotation textgrid files can be opened by Praat or by our parsing code, see this [jupyter notebook](https://github.com/ronggong/jingjuPhonemeAnnotation/blob/master/pycode/demo.ipynb) for some parsing examples.
