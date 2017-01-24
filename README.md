@@ -25,13 +25,13 @@ Role-types [wiki page](https://en.wikipedia.org/wiki/Peking_opera#Classification
 
 ### Annotation units for phoneme-level
 
-1.This table shows the annotation units used in 'pinyin' and 'details' tiers of each .\dataset\textgrid\\*.TextGrid  
+1.This table shows the annotation units used in 'pinyin', 'dian', 'dianSilence' and 'details' tiers of each textgrid.
 
 2.Chinese pinyin and X-SAMPA format are given. 
 
-3.b,p,d,t,k,j,q,x,zh,ch,sh,z,c,s initials are grouped into one representation (not X-SAMPA): c  
+3.b,p,d,t,k,j,q,x,zh,ch,sh,z,c,s initials are grouped into one representation (not a formal X-SAMPA symbol): c  
 
-4.v,N,J (X-SAMPA) are three special pronunciations which do not exist in pinyin.  
+4.v,N,J (X-SAMPA) are three special pronunciations which do not exist in pinyin.
 
 <dl>
 <table>
